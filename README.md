@@ -12,17 +12,6 @@
 - **Bash**: Ensure you have `bash` installed (usually available by default on most systems).
 - **shc**: This utility is used to compile the shell script into a binary.
 
-### Installing `shc`
-
-For Arch Linux users, install `shc` using:
-```bash
-sudo pacman -S shc
-```
-or
-```bash
-yay -S shc
-```
-
 # Installation
 
 ## cURL
