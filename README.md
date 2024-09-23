@@ -25,19 +25,19 @@ yay -S shc
 
 To install SpaceNum, you need to cURL it to your `$PATH` and give it execute permissions:
 
-``sh
+```bash
 $ sudo curl -sL "https://raw.githubusercontent.com/VedantKhapre/SpaceNum/main/spaceNum.sh" -o /usr/local/bin/spaceNum
-``sh
-``sh
+```
+```bash
 $ sudo chmod +x /usr/local/bin/spaceNum
-``
+```
 ## Uninstall
 
 To uninstall SpaceNum, simply remove it from your `$PATH`. For example:
 
-``sh
+```bash
 sudo rm -f /usr/local/bin/spaceNum
-``
+```
 # Usage
 
 To use SpaceNum, navigate to the directory containing the files you want to rename and run:
