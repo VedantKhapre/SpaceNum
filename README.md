@@ -15,9 +15,13 @@
 ### Installing `shc`
 
 For Arch Linux users, install `shc` using:
+```bash
 sudo pacman -S shc
-# or
+```
+or
+```bash
 yay -S shc
+```
 
 # Installation
 
