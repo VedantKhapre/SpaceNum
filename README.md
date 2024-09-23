@@ -1,2 +1,46 @@
 # SpaceNum
-SpaceNum is a command-line utility that renames files in the current directory by adding a sequential number based on their creation time. It's an easy and efficient way to organize your files for better management.
+
+**SpaceNum** is a command-line utility that renames files in the current directory based on their creation time, sequentially numbering them for better organization.
+
+## Features
+
+- Renames files in the current directory by prepending a sequential number based on their creation time.
+- Simple and easy to use from the terminal.
+
+## Prerequisites
+
+- **Bash**: Ensure you have `bash` installed (usually available by default on most systems).
+- **shc**: This utility is used to compile the shell script into a binary.
+
+### Installing `shc`
+
+For Arch Linux users, install `shc` using:
+
+```bash
+sudo pacman -S shc
+# or
+yay -S shc
+
+# Installation
+
+## cURL
+
+To install SpaceNum, you need to cURL it to your `$PATH` and give it execute permissions:
+
+```sh
+$ sudo curl -sL "https://raw.githubusercontent.com/VedantKhapre/SpaceNum/main/spaceNum.sh" -o /usr/local/bin/spaceNum
+$ sudo chmod +x /usr/local/bin/spaceNum
+
+## Uninstall
+
+To uninstall SpaceNum, simply remove it from your `$PATH`. For example:
+
+```sh
+sudo rm -f /usr/local/bin/spaceNum
+
+# Usage
+
+To use SpaceNum, navigate to the directory containing the files you want to rename and run:
+
+```bash
+spaceNum
